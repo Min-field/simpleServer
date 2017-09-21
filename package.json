@@ -1,0 +1,22 @@
+{
+  "name": "simpleserver",
+  "version": "1.0.0",
+  "description": "a simple server created for static files ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "bin": {
+    "server": "./server.js"
+  },
+  "keywords": [
+    "server",
+    "node"
+  ],
+  "author": "feikerwu@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "mime": "^2.0.2"
+  }
+}
